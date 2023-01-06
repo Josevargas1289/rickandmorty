@@ -6,7 +6,7 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
-  background-image: url("./src/assets/img/bannerPpal.jpg");
+  background-image: url("../public/bannerPpal.jpg");
   background-repeat: no-repeat;
   background-size:100%;
 

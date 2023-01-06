@@ -1,4 +1,30 @@
+.screen-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
 
+.screen{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.title-screen{
+  position: absolute;
+  left: 0;
+  color: white;
+  
+}
+.screnn-welcome{
+  position: absolute;
+  color: white;
+  left: 10%;
+  top: 50%;
+}
 .header-container{
   display: flex;
   width: 100%;
@@ -228,6 +254,14 @@ span{
   .card{
     width: 400px;
   }
- 
+  .title-screen{
+    font-size: 50px;
+   
+}
+.screnn-welcome{
+
+  left: 50%;
+  top: 50%;
+}
 }
 

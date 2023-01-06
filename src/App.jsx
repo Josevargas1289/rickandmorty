@@ -4,15 +4,27 @@ import axios from 'axios'
 import Location from './components/Location'
 
 
+
+
+
 function App() {
+
+  const [isLoading, setIsLoading] = useState(true);
 
 
   return (
     <div className="App">
-      <div className='header-container'>
+      <div>
+<div className='header-container'>
         {/* container para la imagen de fondo del banner */}
       </div>
       <Location/>
+
+      </div>
+
+      
+   
+      
     </div>
   )
 }

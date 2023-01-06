@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import CharacterCard from './CharacterCard';
 
 
 const Location = () => {
@@ -46,16 +47,14 @@ const Location = () => {
                 <h2><b>Population:</b>  {location.residents?.length}</h2>
             </div>
             <div className='list-residents'>
-                <ul>
+                <div className='card-colum'>
                     {
                         location.residents?.map(resident => (
-                            <li key={resident}>
-                                {resident}
-                            </li>
+                            <CharacterCard resident={resident} key={resident} />
                         ))
                     }
 
-                </ul>
+                </div>
             </div>
 
 

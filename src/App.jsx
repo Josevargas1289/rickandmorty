@@ -13,8 +13,6 @@ function App() {
         {/* container para la imagen de fondo del banner */}
       </div>
       <Location/>
-     
-      
     </div>
   )
 }

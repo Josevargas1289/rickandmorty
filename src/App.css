@@ -1,5 +1,5 @@
 .screen-container{
-  background-image: url(../public/rick.jpg);
+ 
   position: absolute;
   top: 0;
   left: 0;
@@ -23,8 +23,11 @@
 .screnn-welcome{
   position: absolute;
   color: white;
-  left: 10%;
+  left: 0;
   top: 50%;
+
+ 
+ 
 }
 .header-container{
   display: flex;

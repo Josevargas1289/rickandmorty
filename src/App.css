@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 .screen-container{
  
   position: absolute;
@@ -6,30 +8,32 @@
   right: 0;
   bottom: 0;
   z-index: 1000;
+
 }
 
 .screen{
   display: flex;
   justify-content: center;
   justify-items: center;
+ 
 }
 
 .title-screen{
   position: absolute;
   left: 0;
   color: white;
+
   
 }
 .screnn-welcome{
   position: absolute;
   color: white;
   left: 5%;
-  top: 50%;
+  top: 5%;
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
-
- 
+  width: 250px;
  
 }
 .header-container{
@@ -71,7 +75,7 @@
 }
 .container-search > input{
   
-  width: 60%;
+  width: 50%;
   border-radius: 10px 0px 0px 10px;
   border: none;
   font-size: 15px;
@@ -82,10 +86,15 @@
 }
 
 .container-search > button{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 1px;
   color: #fff !important;
   font-size: 15px;
   font-weight: 500;
-  width: 40%;
+  width: 50%;
   border-radius: 0px 10px 10px 0px;
   padding: 0.5em 1.2em;
   background: #318aac;
@@ -214,6 +223,8 @@ span{
   margin-right: 10px;
 }
 
+      
+
 
 /* ###################################################### QUERYS ################################################################################# */
 
@@ -233,9 +244,18 @@ span{
     width: 50%;
    
   }
+  .container-search > input{
+  
+    width: 70%;
+   
+  
+  
+  }
   .container-search > button{
     font-size: 18px;
-    width: 20%;
+    width: 30%;
+    display: flex;
+
     
   }
   .title-location{
@@ -269,6 +289,15 @@ span{
 
   left: 50%;
   top: 50%;
+}
+
+.screnn-welcome{
+position: absolute;
+right: -20%;
+top: 80%;
+ 
+
+ 
 }
 }
 

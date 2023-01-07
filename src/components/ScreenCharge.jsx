@@ -1,5 +1,6 @@
 import React from 'react'
 import rick from "../assets/img/rick.jpg"
+import pngtext from "../assets/img/pngtext.png"
 
 
 const ScreenCharge = () => {
@@ -8,7 +9,7 @@ const ScreenCharge = () => {
             <div className='screen'>
                 <img src={rick} alt="img" />
                 <h1 className='title-screen'>Cargando. . . .</h1>
-                <h1 className='screnn-welcome'>Bienvenido A: Rick <br /> And Morty APP</h1>
+                <img className='screnn-welcome' src={pngtext} alt="" />
             </div>
 
         </div>

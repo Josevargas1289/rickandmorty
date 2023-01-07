@@ -43,12 +43,13 @@ const Location = () => {
                     <div className='container-search'>
         
                         <input
+                        
                             type="text"
                             placeholder="Type a location for id"
                             value={searchIdLocation}
                             onChange={(e) => setSearchIdLocation(e.target.value)}
                         />
-                        <button onClick={searchLocation}>Search location</button>
+                        <button onClick={searchLocation}><i class='bx bx-search-alt-2'></i>Search location </button>
         
                     </div>
                     <h2 className='title-location'>{location.name}</h2>

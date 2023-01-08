@@ -43,7 +43,7 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
-  background-image: url("../public/bannerPpal.jpg");
+  background-image: url("/bannerPpal.jpg");
   background-repeat: no-repeat;
   background-size:100%;
 
@@ -205,9 +205,9 @@ span{
   align-items: center;
   position: absolute;
   left: 0;
-  top: 2rem;
+  top: 1rem;
   background-color: #093036;
-  width: 70px;
+  width: 100px;
   height: 25px;
   padding-left: .5rem;
   padding-right: 1rem;
@@ -223,7 +223,27 @@ span{
   margin-right: 10px;
 }
 
-      
+.container-page{
+ display: flex;
+ justify-content: center;
+ justify-items: center;
+ font-size: 20px;
+ align-items: center;
+ gap: 1rem;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ color: white;
+}
+.container-page > button{
+  border-radius: 10px;
+  padding: .3rem;
+}
+.container-page > button:hover{
+background-color: #318aac;
+border: 2px solid white;
+color: white;
+}
+
 
 
 /* ###################################################### QUERYS ################################################################################# */

@@ -26,11 +26,15 @@ const Location = () => {
 
 
     const searchLocation = () => {
+      
         axios.get(`https://rickandmortyapi.com/api/location/${searchIdLocation || "1"}`)
             .then(res => setLocation(res.data));
         if (searchIdLocation > 126) {
+           
             alert("Only 126 Locations")
         }
+        initPage();
+
     }
 
     const [pag, setpage] = useState(1);
@@ -39,6 +43,10 @@ const Location = () => {
     const firtsIndex = (pag - 1) * nexPage;
 
     const residents = location.residents?.slice(firtsIndex, firtsIndex + nexPage);
+   
+    const initPage =()=>{
+        setpage(1)
+    }
 
     // console.log(couterPage);
 

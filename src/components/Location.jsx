@@ -26,16 +26,17 @@ const Location = () => {
 
 
     const searchLocation = () => {
-      
+
         axios.get(`https://rickandmortyapi.com/api/location/${searchIdLocation || "1"}`)
             .then(res => setLocation(res.data));
         if (searchIdLocation > 126) {
-           
+
             alert("Only 126 Locations")
         }
         initPage();
-
+    
     }
+
 
     const [pag, setpage] = useState(1);
     const nexPage = 8
@@ -43,10 +44,12 @@ const Location = () => {
     const firtsIndex = (pag - 1) * nexPage;
 
     const residents = location.residents?.slice(firtsIndex, firtsIndex + nexPage);
-   
-    const initPage =()=>{
+
+    const initPage = () => {
         setpage(1)
     }
+
+
 
     // console.log(couterPage);
 
@@ -75,8 +78,10 @@ const Location = () => {
                         </div>
 
                         <div className='container-page'>
+
                             <Page pag={pag} setpage={setpage} couterPage={couterPage} />
                         </div>
+                       
 
                         <h2 className='title-location'>{location.name}</h2>
                         <div className='location-info'>
@@ -84,6 +89,8 @@ const Location = () => {
                             <h2><b>Dimension:</b>  {location.dimension}</h2>
                             <h2><b>Population:</b>  {location.residents?.length}</h2>
                         </div>
+                     
+
                         <div className='list-residents'>
                             <div className='card-colum'>
                                 {

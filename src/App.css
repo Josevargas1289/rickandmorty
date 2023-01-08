@@ -111,16 +111,19 @@
   text-shadow: 1px 1px 6px #fff;
  
 }
+
+
 .title-location{
   color: white;
   font-size: 20px;
   margin-bottom: 2rem;
 }
 .location-info{
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: white;
   font-size: 10px;
   gap: 1rem;
@@ -230,8 +233,8 @@ span{
  font-size: 20px;
  align-items: center;
  gap: 1rem;
- margin-top: 2rem;
- margin-bottom: 2rem;
+
+ margin-bottom: 1rem;
  color: white;
 }
 .container-page > button{

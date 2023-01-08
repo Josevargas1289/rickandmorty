@@ -11,7 +11,7 @@ const CharacterCard = ({ resident }) => {
             .then(res => setCharacter(res.data))
 
     }, [])
-    // console.log(character);
+    console.log(character);
 
     const actualStatus = ()=>{
         if (character.status === "Dead") {

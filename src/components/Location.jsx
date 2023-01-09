@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import CharacterCard from './CharacterCard';
 import ScreenCharge from './ScreenCharge';
-import Page from './page';
+import Page from './Page';
 
 
 

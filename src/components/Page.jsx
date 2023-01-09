@@ -1,4 +1,4 @@
-import Location from "./Location";
+// import Location from "./Location";
 
 const Page = ({ pag, setpage, couterPage }) => {
     return (

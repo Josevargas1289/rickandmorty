@@ -3,10 +3,6 @@ import './App.css'
 import axios from 'axios'
 import Location from './components/Location'
 
-
-
-
-
 function App() {
 
   const [isLoading, setIsLoading] = useState(true);

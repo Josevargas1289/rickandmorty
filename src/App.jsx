@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <div>
 <div className='header-container'>
+  <h1>title</h1>
   
         {/* container para la imagen de fondo del banner */}
       </div>
